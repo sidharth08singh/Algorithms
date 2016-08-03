@@ -37,5 +37,26 @@ public class TreeTest {
 		
 		System.out.print("\nMaximum element ");
 		System.out.println(treeFunctions.findMaxBST(treeFunctions.getRoot()));
+		
+		System.out.print("\nSearch for element 35 :");
+		System.out.println(treeFunctions.searchBST(35));
+		
+		System.out.print("\nSearch for element 20 :");
+		System.out.println(treeFunctions.searchBST(20));
+		
+		System.out.print("\nSearch for element 10 :");
+		System.out.println(treeFunctions.searchBST(10));
+		
+		System.out.print("\nSearch for element 45 :");
+		System.out.println(treeFunctions.searchBST(45));
+		
+		System.out.print("\nSearch for element 30 :");
+		System.out.println(treeFunctions.searchBST(30));
+		
+		System.out.print("\nSearch for element 50 :");
+		System.out.println(treeFunctions.searchBST(50));
+		
+		System.out.print("\nSearch for element -1 :");
+		System.out.println(treeFunctions.searchBST(-1));	
 	}
 }

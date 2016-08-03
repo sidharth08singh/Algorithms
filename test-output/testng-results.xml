@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26" started-at="2016-08-02T22:40:05Z" finished-at="2016-08-02T22:40:05Z">
+  <suite name="Default suite" duration-ms="30" started-at="2016-08-03T00:16:49Z" finished-at="2016-08-03T00:16:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26" started-at="2016-08-02T22:40:05Z" finished-at="2016-08-02T22:40:05Z">
+    <test name="Default test" duration-ms="30" started-at="2016-08-03T00:16:49Z" finished-at="2016-08-03T00:16:49Z">
       <class name="com.raio.algorithms.algorithms.TreeTest">
-        <test-method status="PASS" signature="TestBSTInsertion()[pri:0, instance:com.raio.algorithms.algorithms.TreeTest@78894c72]" name="TestBSTInsertion" duration-ms="12" started-at="2016-08-02T15:40:05Z" finished-at="2016-08-02T15:40:05Z">
+        <test-method status="PASS" signature="TestBSTInsertion()[pri:0, instance:com.raio.algorithms.algorithms.TreeTest@736d4a3e]" name="TestBSTInsertion" duration-ms="13" started-at="2016-08-02T17:16:49Z" finished-at="2016-08-02T17:16:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestBSTInsertion -->

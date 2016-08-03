@@ -44,21 +44,31 @@ public class TreeFunctions {
 	}
 	
 	//search for a nodeID in the binary search tree
-	/*public boolean searchBST(int nodeID) {
+	public boolean searchBST(int nodeID) {
 		if(getRoot() == null) {
 			return false;
 		}
 		
-		TreeNode parent = null;
 		TreeNode current = root;
 		while(true) {
-			parent = current;
+			if(nodeID == current.getNodeID()) {
+				return true;
+			}
 			if(nodeID < current.getNodeID()) {
-				
+				current = current.getLchild();
+				if(current == null) {
+					return false;
+				}
+			}
+			else {
+				current = current.getRchild();
+				if(current == null) {
+					return false;
+				}
 			}
 		}
 		
-	}*/
+	}
 	
 	//find minimum in the binary search tree
 	public int findMinBST(TreeNode root) {
