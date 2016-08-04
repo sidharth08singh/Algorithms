@@ -16,7 +16,7 @@ public class Graph
 
     }
 
-    //parameterised constructor
+    //parameterized constructor
     public Graph(List<Node> graph) {
         this.graph = graph;
     }
